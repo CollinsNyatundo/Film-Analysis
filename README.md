@@ -26,7 +26,7 @@ Each CSV is described in the analysis notebook. Together they allow computation 
 
   ![Worldwide Gross by Genre](images/worldwide_gross.png) *Figure: Total worldwide box-office gross by genre (2010–2016). Adventure and Action films gross far more than other genres.*  
 
-- **Domestic vs. Foreign Splits:** Many genres earn much more overseas than domestically. The chart below compares domestic and international gross by genre. For example, Action and Adventure have large foreign markets, while genres like Documentary earn a higher share domestically. Notably, Adventure’s domestic gross (~$9.2B) is dwarfed by its foreign gross (~$57.9B) ([Genres Movie Breakdown 1995-2025](https://www.the-numbers.com/market/genres#:~:text=1%20Adventure%201%2C202%20%2467%2C192%2C872%2C334%209%2C235%2C222%2C219,17)). This suggests focus on international appeal for high-grossing genres.  
+- **Domestic vs. Foreign Splits:** Many genres earn much more overseas than domestically. The chart below compares domestic and international gross by genre. For example, Action and Adventure have large foreign markets, while genres like Documentary earn a higher share domestically. Notably, Adventure’s domestic gross (~ $9.2B) is dwarfed by its foreign gross (~ $57.9B) ([Genres Movie Breakdown 1995-2025](https://www.the-numbers.com/market/genres#:~:text=1%20Adventure%201%2C202%20%2467%2C192%2C872%2C334%209%2C235%2C222%2C219,17)). This suggests focus on international appeal for high-grossing genres.  
 
   ![Domestic vs International Gross by Genre](images/domestic_vs_foreign.png) *Figure: Box office gross by genre, split into domestic (blue) and international (green) markets. High-grossing genres (Action, Adventure) rely heavily on foreign box-office.*  
 
