@@ -9,7 +9,7 @@ In other words, we aim to identify the film genres with the highest returns and 
 
 ## Data Sources  
 We use the following primary datasets (CSV files):  
-- **Box Office Mojo** (`bom.movie_gross.csv`): Domestic and foreign gross for movies from 1977–2016.  
+- **Box Office Mojo** (`bom.movie_gross.csv`): Domestic and foreign gross for movies from 2010–2018.  
 - **The Movie Database (TMDB)** (`tmdb.movies.csv`): Metadata on movies (genres, release dates, popularity, etc.).  
 - **The Numbers** (`tn.movie_budgets.csv`): Production budgets and gross (domestic and worldwide).  
 - **Merged Dataset** (`merged_df.csv`): Cleaned and merged master table (budget, gross, genre, etc., by movie).  
