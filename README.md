@@ -4,7 +4,7 @@
 A new film studio wants data-driven guidance on what types of movies to make. This analysis combines box-office and movie metadata to identify which film genres yield the strongest box-office returns. We merge data from major sources (Box Office Mojo, TheMovieDB, The Numbers) to profile genres, budgets, and release patterns. Our goal is to highlight opportunities for high-revenue films (e.g. top grossing genres, seasonal timing) to inform the studio’s production strategy ([Genres Movie Breakdown 1995-2025](https://www.the-numbers.com/market/genres#:~:text=1%20Adventure%201%2C202%20%2467%2C192%2C872%2C334%209%2C235%2C222%2C219,17)).
 
 ## Business Problem  
-The core question is: **Which genres and release strategies will maximize box-office success?**  
+The core question is: **Which genres and release strategies yield the highest financial returns?**  
 In other words, we aim to identify the film genres with the highest returns and optimal release windows. Key factors include total gross vs. budget (ROI), domestic vs. foreign performance, seasonal trends, and audience ratings. Understanding these will help the studio prioritize film projects (genres, budgets, release dates) that historically perform best at the box office.
 
 ## Data Sources  
