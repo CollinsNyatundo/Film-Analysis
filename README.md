@@ -94,5 +94,5 @@ To run this project locally:
 Contributions are welcome. If you find issues or have ideas (new analyses, updated data), please open an issue or submit a pull request. For major changes, please discuss via GitHub issues first. We follow standard [Contributor Covenant](https://www.contributor-covenant.org/) guidelines: be respectful and include tests or notebooks that validate your additions.
 
 ## License  
-This project is open-source under the MIT License. See `LICENSE` for full terms.
+This project is open-source under the MIT License. See [`LICENSE`](https://github.com/CollinsNyatundo/Film-Analysis/edit/main/LICENSE) for full terms.
 
