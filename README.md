@@ -91,7 +91,7 @@ To run this project locally:
 - **LICENSE:** Open-source license file.  
 
 ## Contributing  
-Contributions are welcome. If you find issues or have ideas (new analyses, updated data), please open an issue or submit a pull request. For major changes, please discuss via GitHub issues first. We follow standard [Contributor Covenant](https://www.contributor-covenant.org/) guidelines: be respectful and include tests or notebooks that validate your additions.
+Contributions are welcome. If you find issues or have ideas (new analyses, updated data), please open an issue or submit a pull request. For major changes, please discuss via GitHub issues first. We follow standard [Contributor Covenant](https://www.contributor-covenant.org/) guidelines [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md): be respectful and include tests or notebooks that validate your additions.
 
 ## License  
 This project is open-source under the MIT License. See [`LICENSE`](https://github.com/CollinsNyatundo/Film-Analysis/blob/main/LICENSE) for full terms.
