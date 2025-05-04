@@ -25,15 +25,15 @@ Each CSV is described in the analysis notebook. Together, they allow computation
 ## Key Insights  
 - **High-Grossing Genres:** Adventure, Action, and Animation dominate worldwide revenue ([Genres Movie Breakdown 1995-2025](https://www.the-numbers.com/market/genres#:~:text=1%20Adventure%201%2C202%20%2467%2C192%2C872%2C334%209%2C235%2C222%2C219,17)). The bar chart below shows *total worldwide gross by genre*. Adventure films (e.g. *Avatar*, *Incredibles 2*) lead with the highest lifetime grosses. This aligns with industry data (The Numbers reports Adventure with ~$67B worldwide) ([Genres Movie Breakdown 1995-2025](https://www.the-numbers.com/market/genres#:~:text=1%20Adventure%201%2C202%20%2467%2C192%2C872%2C334%209%2C235%2C222%2C219,17)). Studios may focus on blockbuster franchises in these genres.  
 
-  ![Worldwide Gross by Genre](Images/top-performing-genres.png) *Figure: Total worldwide box-office gross by genre (2010–2016). Adventure and Action films gross far more than other genres.*  
+  ![Worldwide Gross by Genre](Images/top-performing-genres.png) *Figure: Total worldwide box-office gross by genre (2010–2018). Adventure and Action films gross far more than other genres.*  
 
 - **Domestic vs. Foreign Splits:** Many genres earn much more overseas than domestically. The chart below compares domestic and international gross by genre. For example, Action and Adventure have large foreign markets, while genres like Documentary earn a higher share domestically. Notably, Adventure’s domestic gross is dwarfed by its foreign gross ([Genres Movie Breakdown 1995-2025](https://www.the-numbers.com/market/genres#:~:text=1%20Adventure%201%2C202%20%2467%2C192%2C872%2C334%209%2C235%2C222%2C219,17)). This suggests a focus on international appeal for high-grossing genres.  
 
   ![Domestic vs International Gross by Genre](Images/domestic-vs-foreign-split.png) *Figure: Box office gross by genre, split into domestic (blue) and international (green) markets. High-grossing genres (Action, Adventure) rely heavily on foreign box office.*  
 
-- **Seasonal Release Effects:** Summer and holiday seasons see higher grosses. Our analysis of gross by release month (below) shows peaks in June–August and in December. This matches historical trends: summer releases often capture summer vacation audiences, and holiday blockbusters drive year-end revenue (e.g. *Incredibles 2* grossed $602M in summer 2018 ([Summer Box Office - Box Office Mojo](https://www.boxofficemojo.com/season/summer/?grossesOption=calendarGrosses#:~:text=2019%20%244%2C320%2C749%2C661,482%2C853%2C070%2010.8))). The studio should time big releases for peak seasons.  
+- **Seasonal Release Effects:** Summer and holiday seasons see higher grosses. Our analysis of gross by release month (below) shows peaks in May–August and in November, December. This matches historical trends: summer releases often capture summer vacation audiences, and holiday blockbusters drive year-end revenue (e.g. *Incredibles 2* grossed $602M in summer 2018 ([Summer Box Office - Box Office Mojo](https://www.boxofficemojo.com/season/summer/?grossesOption=calendarGrosses#:~:text=2019%20%244%2C320%2C749%2C661,482%2C853%2C070%2010.8))). The studio should time big releases for peak seasons.  
 
-  ![Worldwide Gross by Release Month](Images/seasonal-release-effects.png) *Figure: Total worldwide gross by release month. Blockbusters released in summer (June–August) and December generally earn higher grosses.*  
+  ![Worldwide Gross by Release Month](Images/seasonal-release-effects.png) *Figure: Total worldwide gross by release month. Blockbusters released in summer (May–August) and in the holidays (November-December) generally earn higher grosses.*  
 
 - **Audience Ratings by Genre:** Some genres consistently earn higher audience ratings. The bar plot below provides a clear visualization of the average rating for each movie genre. We can observe that certain genres, such as documentary and history, tend to receive higher average ratings than others, such as horror or TV Movies. This difference in average ratings could be attributed to various factors, including audience preferences, storytelling styles, and overall production quality; combining high-gross potential with higher ratings (e.g. Animation, Fantasy) may be a sweet spot.  
 
@@ -78,7 +78,7 @@ To run this project locally:
 1. **Clone the repository:** `git clone https://github.com/CollinsNyatundo/Film-Analysis.git && cd Film-Analysis`  
 2. **Install dependencies:** Run `pip install -r requirements.txt` (or manually install common libraries: `pandas, numpy, matplotlib, seaborn`, etc.).  
 3. **Open the notebook:** Launch `index.ipynb` in Jupyter Notebook or JupyterLab to reproduce the analysis and charts.  
-4. **View output:** The pre-generated charts are saved in the `images/` folder for embedding; you can re-run the notebook to regenerate them.  
+4. **View output:** The pre-generated charts are saved in the `Images/` folder for embedding; you can re-run the notebook to regenerate them.  
 
 ## Project Structure  
 - **README.md:** This file (project overview and documentation).  
@@ -87,7 +87,7 @@ To run this project locally:
 - **tmdb.movies.csv:** TMDB movie metadata (genre lists, release dates, ratings).  
 - **tn.movie_budgets.csv:** The Numbers production budgets and grosses.  
 - **merged_df.csv:** Combined, cleaned master dataset (result of merging the above).  
-- **images/**: Folder (added) containing `.png` charts extracted from the notebook, referenced above.  
+- **Images/**: Folder (added) containing `.png` charts extracted from the notebook, referenced above.  
 - **LICENSE:** Open-source license file.  
 
 ## Contributing  
